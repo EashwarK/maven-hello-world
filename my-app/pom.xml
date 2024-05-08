@@ -10,7 +10,7 @@
 
   <properties>
       <!-- This property will be set by the Maven Dependency plugin -->
-      <annotatedJdk>${org.checkerframework:jdk8:jar}</annotatedJdk>
+      <annotatedJdk>${org.checkerframework:jdk11:jar}</annotatedJdk>
   </properties>
 
   <dependencies>
@@ -32,8 +32,7 @@
     </dependency>
     <dependency>
         <groupId>org.checkerframework</groupId>
-        <artifactId>jdk8</artifactId>
-        <version>1.9.4</version>
+        <artifactId>jdk11</artifactId>
     </dependency>
   </dependencies>
   <build>
