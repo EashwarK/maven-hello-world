@@ -89,11 +89,11 @@
               </execution>
           </executions>
       </plugin>
-      <plugin>
+<!--       <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
           <configuration>
-              <source>3.13.0</source>
-              <target>3.13.0</target>
+              <source>1.8</source>
+              <target>1.8</target>
               <fork>true</fork>
               <!-- Add all the checkers you want to enable here -->
               <annotationProcessors>
@@ -104,7 +104,7 @@
                   <arg>-Xbootclasspath/p:${annotatedJdk}</arg>
               </compilerArgs>
           </configuration>
-      </plugin>
+      </plugin> -->
     </plugins>
   </build>
 </project>
