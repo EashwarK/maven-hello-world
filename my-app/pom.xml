@@ -89,23 +89,22 @@
               </execution>
           </executions>
       </plugin>
-<!--   <plugin>
+      <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
           <configuration>
-              <source>1.8</source>
-              <target>1.8</target>
-              <fork>true</fork> -->
-	    
+              <source>1.6</source>
+              <target>1.6</target>
+              <fork>true</fork> 
               <!-- Add all the checkers you want to enable here -->
-             <!--  <annotationProcessors>
+              <annotationProcessors>
                   <annotationProcessor>org.checkerframework.checker.nullness.NullnessChecker</annotationProcessor>
               </annotationProcessors>
-              <compilerArgs> -->
+              <compilerArgs> 
                   <!-- location of the annotated JDK, which comes from a Maven dependency -->
-                   <!-- <arg>-Xbootclasspath/p:${annotatedJdk}</arg>
+                    <arg>-Xbootclasspath/p:${annotatedJdk}</arg>
               </compilerArgs>
           </configuration>
-	</plugin> --> 
+	</plugin>
     </plugins>
   </build>
 </project>
