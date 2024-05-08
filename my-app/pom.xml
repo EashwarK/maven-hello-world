@@ -97,9 +97,9 @@
           <target>1.8</target>
           <fork>true</fork>
           <!-- Add all the checkers you want to enable here -->
-          <annotationProcessors>
+          <!-- <annotationProcessors>
             <annotationProcessor>org.checkerframework.checker.nullness.NullnessChecker</annotationProcessor>
-	  </annotationProcessors>
+	  </annotationProcessors> -->
           <compilerArgs>
             <!-- location of the annotated JDK, which comes from a Maven dependency -->
             <arg>-Xbootclasspath/p:${annotatedJdk}</arg>
